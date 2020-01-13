@@ -9,6 +9,10 @@
 .hover {
   color: red;
 }
+.hoverBtn {
+  color: red;
+  background-color: green;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -194,6 +198,10 @@ nav a:focus {
   text-decoration-color: none;
   color: black;
 }
+nav a:visited {
+  text-decoration-color: none;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -245,6 +253,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.home .walk .walk-text .btn:hover {
+  color: red;
+  background-color: green;
 }
 .home .walk .walk-img {
   width: 46%;
