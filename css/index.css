@@ -176,6 +176,14 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.8;
+}
 .navBar h1 {
   text-align: center;
   font-size: 40px;
@@ -193,7 +201,7 @@ nav a {
   text-decoration-color: none;
   color: black;
 }
-nav a:hover {
+nav a a:hover {
   color: red;
 }
 nav a:focus {
