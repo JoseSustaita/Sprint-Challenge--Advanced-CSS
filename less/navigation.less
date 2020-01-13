@@ -1,26 +1,27 @@
 // Navigation code here
-.navBar{
-    h1 {
-        text-align: center;
-        font-size: 40px;
-    }
+.navBar {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
 }
 nav {
-    display: flex;
-    justify-content: center;
-    font-family: 'Russo One', sans-serif;
-    color: @header-font-color;
-     a {
-         .margin();
-        .setRules();
-        &:hover {
-          .hover();
-        }
-        &:focus {
-          .setRules();
-        }
-        &:visited {
-            .setRules();
-        }
+  display: flex;
+  justify-content: center;
+  font-family: "Russo One", sans-serif;
+  color: @header-font-color;
+  a {
+    text-decoration: none;
+    .margin();
+    .setRules();
+    &:hover {
+      .hover();
     }
+    &:focus {
+      .setRules();
+    }
+    &:visited {
+      .setRules();
+    }
+  }
 }
