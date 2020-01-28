@@ -1,1 +1,34 @@
 // Navigation code here
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.8;
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+nav {
+  display: flex;
+  justify-content: center;
+  font-family: "Russo One", sans-serif;
+  color: @header-font-color;
+  
+  a {
+    text-decoration: none;
+    .margin();
+    .setRules();
+    a:hover {
+      .hover();
+    }
+    &:focus {
+      .setRules();
+    }
+    &:visited {
+      .setRules();
+    }
+  }
+}
